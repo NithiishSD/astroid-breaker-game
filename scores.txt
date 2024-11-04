@@ -1,0 +1,11 @@
+
+
+
+fygchdf 1 0 0 2
+nithiish 1 0 0 1
+nithiish 1 120 118 2
+nithiish 1 215 64 2
+nithiish 1 217 86 2
+kaashish 1 0 0 1
+pranav 1 0 0 1
+pranav 1 172 124 2

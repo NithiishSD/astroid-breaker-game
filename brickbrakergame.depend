@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1727505615 source:c:\users\nithi\documents\brickbrakergame\main.c
+	<stdbool.h>
+	<stdio.h>
+	<stdlib.h>
+
+1728016230 source:c:\users\nithi\documents\brickbrakergame\sdl_window.c
+	<stdio.h>
+	<SDL2/SDL.h>
+	<stdlib.h>
+	"randomgenerate.h"
+	"ball.h"
+	"bricks.h"
+	"paddle.h"
+
+1727719017 source:c:\users\nithi\documents\brickbrakergame\randomgenerate.c
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+
+1728016274 source:c:\users\nithi\documents\brickbrakergame\bricks.c
+	<SDL2/SDL.h>
+	"randomgenerate.h"
+	"ball.h"
+	"bricks.h"
+
+1727721029 c:\users\nithi\documents\brickbrakergame\randomgenerate.h
+
+1727724521 c:\users\nithi\documents\brickbrakergame\bricksandpaddle.h
+	"randomgenerate.h"
+
+1727890512 c:\users\nithi\documents\brickbrakergame\definitions.h
+	<stdio.h>
+	<stdlib.h>
+	<SDL2/SDL.h>
+
+1728016230 c:\users\nithi\documents\brickbrakergame\bricks.h
+	<stdio.h>
+	<SDL2/SDL.h>
+	"randomgenerate.h"
+
+1727963246 source:c:\users\nithi\documents\github\brick-breaker\ball header.c
+	"../../brickbrakergame/bricks.h"
+	<SDL2/SDL.h>
+
+1728016241 source:c:\users\nithi\documents\brickbrakergame\ball.c
+	<SDL2/SDL.h>
+	"ball.h"
+	"paddle.h"
+
+1728016106 c:\users\nithi\documents\brickbrakergame\ball.h
+	"bricks.h"
+
+1728016011 c:\users\nithi\documents\brickbrakergame\paddle.h
+
+1728017253 source:c:\users\nithi\documents\brickbrakergame\paddle.c
+	"bricks.h"
+	"paddle.h"
+

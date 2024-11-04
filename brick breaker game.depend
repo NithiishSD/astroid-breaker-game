@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1729939950 source:c:\users\nithi\documents\brickbreakergame\ball.c
+	<SDL2/SDL.h>
+	"ball.h"
+	"paddle.h"
+	"images.h"
+	"audio.h"
+
+1728488922 c:\users\nithi\documents\brickbreakergame\ball.h
+	"bricks.h"
+
+1730096684 c:\users\nithi\documents\brickbreakergame\bricks.h
+	<stdio.h>
+	<SDL2/SDL.h>
+	"randomgenerate.h"
+	<stdbool.h>
+
+1728326278 c:\users\nithi\documents\brickbreakergame\randomgenerate.h
+	<SDL2/SDL_image.h>
+	<time.h>
+
+1728482483 c:\users\nithi\documents\brickbreakergame\paddle.h
+	<SDL2/SDL.h>
+
+1728744389 source:c:\users\nithi\documents\brickbreakergame\bricks.c
+	<stdbool.h>
+	<SDL2/SDL.h>
+	"randomgenerate.h"
+	"ball.h"
+	"images.h"
+	"bricks.h"
+	"audio.h"
+
+1728327013 source:c:\users\nithi\documents\brickbreakergame\randomgenerate.c
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	"randomgenerate.h"
+
+1730097088 source:c:\users\nithi\documents\brickbreakergame\sdl_window.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_mixer.h>
+	<stdlib.h>
+	<windows.h>
+	<SDL2/SDL_ttf.h>
+	"randomgenerate.h"
+	"ball.h"
+	"bricks.h"
+	"paddle.h"
+	"images.h"
+	"audio.h"
+	"text.h"
+	"scores.h"
+
+1728638710 source:c:\users\nithi\documents\brickbreakergame\paddle.c
+	"paddle.h"
+	"randomgenerate.h"
+	"images.h"
+
+1728131216 c:\users\nithi\documents\brickbreakergame\initialise.h
+
+1729940292 source:c:\users\nithi\documents\brickbreakergame\bricks2.c
+	<stdbool.h>
+	<SDL2/SDL.h>
+	"images.h"
+	"randomgenerate.h"
+	"ball.h"
+	"bricks.h"
+	"audio.h"
+
+1728392704 source:c:\users\nithi\documents\brickbreakergame\images.c
+	"images.h"
+
+1728392773 c:\users\nithi\documents\brickbreakergame\images.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1728498158 source:c:\users\nithi\documents\brickbreakergame\audio.c
+	<SDL2/SDL_mixer.h>
+	"audio.h"
+
+1728497937 c:\users\nithi\documents\brickbreakergame\audio.h
+	<SDL2/SDL_mixer.h>
+
+1728732894 source:c:\users\nithi\documents\brickbreakergame\text.c
+	"text.h"
+
+1729954854 c:\users\nithi\documents\brickbreakergame\text.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+
+1730055062 source:c:\users\nithi\documents\brickbreakergame\scores.c
+	"scores.h"
+
+1730040574 c:\users\nithi\documents\brickbreakergame\scores.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<SDL2/SDL.h>
+

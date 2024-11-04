@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="brickbrakergame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/brickbrakergame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="`pkg-config --libs SDL2`" />
+					<Add option="-mconsole" />
+					<Add library="SDL2_image" />
+					<Add library="SDL2_mixer" />
+					<Add library="SDL2_ttf" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/brickbrakergame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="SDL_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="audio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="audio.h" />
+		<Unit filename="ball.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ball.h" />
+		<Unit filename="bricks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bricks.h" />
+		<Unit filename="bricks2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="images.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="images.h" />
+		<Unit filename="paddle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="paddle.h" />
+		<Unit filename="randomgenerate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="randomgenerate.h" />
+		<Unit filename="scores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scores.h" />
+		<Unit filename="text.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="text.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
